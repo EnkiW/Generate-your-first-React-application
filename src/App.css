@@ -1,0 +1,29 @@
+/* src/App.css */
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+    min-width: 200px;
+    padding: 1rem;
+}
+
+.main {
+    flex: 1;
+    padding: 1rem;
+    border-left: 1px solid #ccc;
+}
