@@ -1,25 +1,36 @@
+body {
+    margin: 0;
+    font-size: 30px;
+}
+
 .app {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.all-cont {
+    display: flex;
+    flex: 1;
 }
 
 .header {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
+    background-color: #252525;
+    color: white;
+    padding: 1rem;
 }
 
-.main-container {
-  display: flex;
-}
 
 .sidebar {
-  background-color: #555;
-  color: white;
-  flex: 1;
-  padding: 1rem;
+    background-color: #555;
+    color: white;
+    width: 10%;
+    padding: 1rem;
 }
 
 .content {
-  flex: 3;
-  padding: 1rem;
+    flex: 1;
+    padding: 1rem;
 }
